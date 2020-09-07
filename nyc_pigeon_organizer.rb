@@ -25,9 +25,11 @@ def nyc_pigeon_organizer(data)
     puts key
     value.each do |nKey, nValue|
       if !pigeons_by_name[nValue]
-        pigeons_by_name
+        pigeons_by_name[nValue] = nKey
+      end
     end
   end
+  pigeons_by_name
 end
 
 
