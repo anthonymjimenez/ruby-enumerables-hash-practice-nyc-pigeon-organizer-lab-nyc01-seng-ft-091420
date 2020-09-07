@@ -28,7 +28,7 @@ def nyc_pigeon_organizer(data)
         if !pigeons_by_name[e]
           pigeons_by_name[e] = {key => nKey}
         else
-          pigeons_by_name.merge({key => nKey})
+          pigeons_by_name[e].merge({key => nKey})
         end
        }
     end
