@@ -22,7 +22,6 @@ def nyc_pigeon_organizer(data)
   pigeons_by_name = {}
 
   data.each do |key, value|
-    puts key, value
     value.each do |nKey, nValue|
       puts nKey, nValue
     end
