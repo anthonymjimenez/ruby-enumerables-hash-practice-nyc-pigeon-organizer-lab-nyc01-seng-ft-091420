@@ -26,6 +26,7 @@ def nyc_pigeon_organizer(data)
       nValue.map { |element| ## arrays of names
         if !pigeons_by_name[element]
           pigeons_by_name[element] = nKey
+        end
         }
     }
   }
