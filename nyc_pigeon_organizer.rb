@@ -25,6 +25,7 @@ def nyc_pigeon_organizer(data)
     puts key, value
     value.each do |nKey, nValue|
       puts nKey, nValue
+    end
   end
 end
 
