@@ -28,7 +28,7 @@ def nyc_pigeon_organizer(data)
         if !pigeons_by_name[e]
           pigeons_by_name[e] = {key => nKey}
         else
-          pigeons_by_name[e] = {key => nKey}
+          pigeons_by_name = {key => nKey}
         end
        }
     end
