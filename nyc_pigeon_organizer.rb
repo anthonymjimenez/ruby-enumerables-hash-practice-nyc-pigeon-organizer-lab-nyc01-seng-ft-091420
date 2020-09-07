@@ -22,8 +22,10 @@ def nyc_pigeon_organizer(data)
   pigeons_by_name = {}
 
   data.each do |key, value|
+    puts key
     value.each do |nKey, nValue|
-      puts nKey, nValue
+      if !pigeons_by_name[nValue]
+        pigeons_by_name
     end
   end
 end
