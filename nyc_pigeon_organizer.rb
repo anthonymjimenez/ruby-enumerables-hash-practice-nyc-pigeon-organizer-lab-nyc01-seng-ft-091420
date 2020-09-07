@@ -23,6 +23,8 @@ def nyc_pigeon_organizer(data)
 
   data.each do |key, value|
     puts key, value
+    value.each do |nKey, nValue|
+      puts nKey, nValue
   end
 end
 
