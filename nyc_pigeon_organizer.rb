@@ -25,9 +25,7 @@ def nyc_pigeon_organizer(data)
     puts key
     value.each do |nKey, nValue|
       nValue.map { |e|
-        if !pigeons_by_name[e]
           pigeons_by_name[e] = {key => nKey}
-        end
        }
     end
   end
